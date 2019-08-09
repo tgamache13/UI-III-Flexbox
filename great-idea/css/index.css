@@ -141,3 +141,119 @@ footer{
 	justify-content: center;
 	padding-top: 30px;
 }
+
+.services-header-img{
+	position: relative;
+	top: 20px;
+	margin-bottom: 40px;
+}
+
+.services{
+	margin-bottom: 40px;}
+
+.design{
+	display: flex;
+	flex-direction: column;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 47%;
+	height: 200px;
+	padding: 20px;
+	padding-bottom: 200px;
+}
+.ux-ui{
+	display: flex;
+	flex-direction: column;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 47%;
+	height: 200px;
+	padding: 20px;
+	padding-bottom: 200px;
+}
+.firstTwo{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	border-top: 1px solid black;
+}
+.secondTwo{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+.digital-marketing{
+	display: flex;
+	flex-direction: column;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 47%;
+	height: 200px;
+	padding: 20px;
+	padding-bottom: 200px;
+}
+.web-development{
+	display: flex;
+	flex-direction: column;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 47%;
+	height: 200px;
+	padding: 20px;
+	padding-bottom: 200px;
+}
+.thirdTwo{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+.ios-development{
+	display: flex;
+	flex-direction: column;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 47%;
+	height: 200px;
+	padding: 20px;
+	padding-bottom: 200px;
+}
+.android{
+	display: flex;
+	flex-direction: column;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 47%;
+	height: 200px;
+	padding: 20px;
+	padding-bottom: 200px;
+}
+.learnMore{
+	position: relative;
+	top: 10px;
+	left: -20px;  
+	background: white;
+}
+
+.someFacts{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 47%;
+	height: 200px;
+}
+.services-info-img{
+	position: relative;
+	right: -480px;
+	top: -260px;
+}
+li{
+	list-style-type: disc;
+	position: relative;
+	left: 20px;
+}
+.secondOne{
+	position: relative;
+	top: -200px;
+}
