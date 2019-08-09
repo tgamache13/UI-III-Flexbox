@@ -64,3 +64,196 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+body{
+	width: 900px;
+	height: 1400px;
+	margin: auto;
+}
+
+nav{
+	width: 900px;
+	display: flex;
+	justify-content: space-around;
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+}
+
+.topPart{
+	display: flex;
+	justify-content: space-around;
+}
+
+h1{
+	height: 400px;
+	width: 400px;
+	font-size: 70px;
+	text-align: center;
+	padding: 75px;
+	margin-top: 75px;
+}
+
+.codePhoto{
+	padding: 75px;
+}
+
+
+button{
+	background: none;
+	width: 175px;
+	height: 30px;
+	position: relative;
+	top: -160px;
+	left: 100px;
+}
+
+.featuresAbout{
+	display: flex;
+	border-top: 2px solid grey;
+	padding-top: 40px;
+}
+
+.middle-img{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.servicesPar, .productPar, .visionPar{
+	width: 275px;
+}
+.bottom{
+	display: flex;
+	padding-bottom: 40px;
+	border-bottom: 2px solid grey;
+	justify-content: space-between;
+}
+
+.contactPar{
+	padding-top: 40px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+.services-header-img{
+	position: relative;
+	top: 20px;
+	margin-bottom: 40px;
+}
+
+.services{
+	margin-bottom: 40px;}
+
+.design{
+	display: flex;
+	flex-direction: column;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 47%;
+	height: 200px;
+	padding: 20px;
+	padding-bottom: 200px;
+}
+.ux-ui{
+	display: flex;
+	flex-direction: column;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 47%;
+	height: 200px;
+	padding: 20px;
+	padding-bottom: 200px;
+}
+.firstTwo{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	border-top: 1px solid black;
+}
+.secondTwo{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+.digital-marketing{
+	display: flex;
+	flex-direction: column;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 47%;
+	height: 200px;
+	padding: 20px;
+	padding-bottom: 200px;
+}
+.web-development{
+	display: flex;
+	flex-direction: column;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 47%;
+	height: 200px;
+	padding: 20px;
+	padding-bottom: 200px;
+}
+.thirdTwo{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+.ios-development{
+	display: flex;
+	flex-direction: column;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 47%;
+	height: 200px;
+	padding: 20px;
+	padding-bottom: 200px;
+}
+.android{
+	display: flex;
+	flex-direction: column;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 47%;
+	height: 200px;
+	padding: 20px;
+	padding-bottom: 200px;
+}
+.learnMore{
+	position: relative;
+	top: 10px;
+	left: -20px;  
+	background: white;
+}
+
+.someFacts{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 47%;
+	height: 200px;
+}
+.services-info-img{
+	position: relative;
+	right: -480px;
+	top: -260px;
+}
+li{
+	list-style-type: disc;
+	position: relative;
+	left: 20px;
+}
+.secondOne{
+	position: relative;
+	top: -200px;
+}
